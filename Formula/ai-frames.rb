@@ -1,23 +1,23 @@
 class AiFrames < Formula
   desc "Centralized AI context manager for multi-repo workspaces"
   homepage "https://ai-frames.org"
-  version "0.1.1"
+  version "0.1.2"
 
   depends_on "openssl"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.1/ai-frames-macos-arm64.tar.gz"
-      sha256 "2824283a4b67b40d42e524a7f0afff7ca1974f9f574ec2d1d072632072a69c68"
+      url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.2/ai-frames-macos-arm64.tar.gz"
+      sha256 "3b1490b397cd08402b4fab1a38e394809e3f6fe3d7165c35aaa4c52448345d06"
     else
-      url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.1/ai-frames-macos-x64.tar.gz"
-      sha256 "142a24a5aa7dd84993d6826ffe065baae3a574335b7d370c5cdb41c4c52e78be"
+      url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.2/ai-frames-macos-x64.tar.gz"
+      sha256 "e0081407e23e0eaea343c1910d0f8bb8a3f6a2dd04ff271d98a045076deb642f"
     end
   end
 
   on_linux do
-    url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.1/ai-frames-linux-x64.tar.gz"
-    sha256 "bd8d51d7e0ab18ef272610829000ddad5d1ddd603026eef14de50dd9ccc9b11c"
+    url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.2/ai-frames-linux-x64.tar.gz"
+    sha256 "cf958d22d8a1be5b6b679903042f8b1da57d224f73cf5eb023f315b133be7cd6"
   end
 
   def install
