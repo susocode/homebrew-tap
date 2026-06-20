@@ -22,6 +22,7 @@ class AiFrames < Formula
 
   def install
     bin.install "ai-frames"
+    (share/"ai-frames").install "ui"
     (lib/"ai-frames").install "keytar.node" if File.exist?("keytar.node")
   end
 
