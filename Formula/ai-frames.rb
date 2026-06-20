@@ -8,16 +8,16 @@ class AiFrames < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.0/ai-frames-macos-arm64.tar.gz"
-      sha256 "b93b5b9fbacb9f006c85f023cbc39fd2dad8dcc5b5a0cb8742a259c123c28e5c"
+      sha256 "bb3ba39c9049ff81565846fd0abeb1432269d3958649d6123460f968fb481d7b"
     else
       url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.0/ai-frames-macos-x64.tar.gz"
-      sha256 "21e7f9914a3fc5b74adddd0beb2f92552d04a7fc3000086d4f95cf3f4c38d28e"
+      sha256 "fa5667aea1d79992fd69f4072a85d0508cc0c2e62fb2263a949f29f674d03776"
     end
   end
 
   on_linux do
     url "https://github.com/susocode/ai-frames-cli/releases/download/v0.1.0/ai-frames-linux-x64.tar.gz"
-    sha256 "089ac8e1586bbdaa52c9554e64f912fca701f1597e4f1a7430d043a086f74288"
+    sha256 "f84bbffa5a990689f3d4f50a8af94ce13144fc7c853e7931b586167776abe8fb"
   end
 
   def install
