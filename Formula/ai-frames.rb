@@ -1,8 +1,8 @@
 class AiFrames < Formula
   desc "Centralized AI context manager for multi-repo workspaces"
   homepage "https://ai-frames.org"
-  url "https://registry.npmjs.org/ai-frames/-/ai-frames-0.5.1.tgz"
-  sha256 "a5397046af73d50a1775f70e2245ff3b9a32147e2f4f20ebdf7dae74bb8fea4b"
+  url "https://registry.npmjs.org/ai-frames/-/ai-frames-0.5.2.tgz"
+  sha256 "b5c9eb746265c0afe6e5ae2f6c70e516f7ed0db9dc20c70c547da1214da89ab6"
   license "MIT"
 
   depends_on "node"
